@@ -1,13 +1,9 @@
 import React from 'react'
-import { ProjectBox } from './components/about/Project/ProjectBox.jsx'
-import { Scroll } from './components/Animation/ScrollAnim.js'
-// import import projects from '../../assets/data.js';
-import projects from './assets/data.js';
+import { ProjectBox } from '../../Project/ProjectBox.jsx'
+import { Scroll } from '../Animation/ScrollAnim.js'
+import projects from '../../assets/data.js'
 
 const Project = () => {
-  // Corrected and complete projects array with all data objects
- 
-
   Scroll()
 
   return (
@@ -44,4 +40,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Project 

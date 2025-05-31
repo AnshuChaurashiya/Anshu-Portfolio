@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Magnetic, showMenuBtn, SliderMenu, SliderMenu1 } from "../Animation/Magnetic";
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
-import Nav from "../../pages/nav/Nav";
+import Nav from "../nav/Nav";
 import { TbMenu } from "react-icons/tb";
 
 

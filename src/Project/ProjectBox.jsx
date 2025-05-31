@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
-import { Scroll } from '../../Animation/ScrollAnim'
+import { Scroll } from '../components/Animation/ScrollAnim'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import  Btn  from '../../pages/SkillBtn/Btn';
+import  Btn  from '../SkillBtn/Btn';
 import { FaArrowDownLong } from "react-icons/fa6";
 import { AboutAnimation } from '../../components/Animation/AboutAnim';
 import { Link } from 'react-router';

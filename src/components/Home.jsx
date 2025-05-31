@@ -1,9 +1,9 @@
  import Lenis from '@studio-freight/lenis';
-import HomePage from './Home/HomePage';
-import Landing from '../pages/landing/Landing';
-import MiniAbout from '../about/MiniAbout';
-import SkillPage1 from './skill/SkillPage1';
-import Project from '../Project/Project';
+import HomePage from '../components/Home/HomePage';
+// import Landing from '../pages/landing/Landing';
+import MiniAbout from '../components/about/MiniAbout';
+import SkillPage1 from '../components/skill/SkillPage1';
+import Project from '../components/Project/Project';
 import { Scroll } from './Animation/ScrollAnim';
 import { Background } from './Animation/Background';
 

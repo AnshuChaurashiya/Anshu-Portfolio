@@ -1,8 +1,8 @@
 import   { useEffect } from 'react'
 import Header from './components/header/Header'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import About from './pages/about/About'
+import Home from '../src/components/Home'
+import About from '../src/components/about/About'
 import Footer from './components/footer/Footer'
 import Lenis from '@studio-freight/lenis';
 import Work from './components/Project/Work'
