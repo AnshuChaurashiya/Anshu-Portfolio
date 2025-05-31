@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ProjectBox } from '../../pages/Project/ProjectBox'
+import { ProjectBox } from '../about/Project/ProjectBox.jsx'
 // import {UseTable} from 'react-'
 import { HorkAnimation } from '../Animation/WorkAnim.js'
 import { FaArrowDownLong } from "react-icons/fa6";

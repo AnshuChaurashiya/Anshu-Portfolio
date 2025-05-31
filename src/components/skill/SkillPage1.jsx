@@ -1,4 +1,4 @@
-import Btn from '../../pages/SkillBtn/Btn'
+import Btn from '../SkillBtn/Btn'
 import { Scroll } from '../Animation/ScrollAnim'
 import { Link } from 'react-router-dom';
 import { useRef, useEffect } from 'react';
