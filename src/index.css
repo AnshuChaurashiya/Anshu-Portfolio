@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: main;
+  src: url("./assets/NeueMontreal-Regular.otf");
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  scroll-behavior: initial;
+  font-family: main;
+
+}
+
+.max{
+  max-width: 100vmax;
+  min-width: 50%;
+
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.heading{
+  transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);
+  padding-right: 20px;
+}
+
+.code{
+  position: relative;
+  transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.heading:hover .code{
+  transform: translateX(-100px);
+
+}
+
+.name{
+  position: relative;
+  transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.surname{
+  position: absolute;
+  left: 120px;
+  padding-left: 0.5em;
+  transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.heading:hover .name{
+  transform: translateX(-60px);
+}
+
+
+.heading:hover .surname{
+  transform: translateX(-70px);
+  padding-left: 0;
+}
+
+.indicator{
+  position: relative;
+}
+.indicator::after{
+  content:  " ";
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+  transform: scale(0);
+}
+
+.indicator:hover::after{
+  transform: scale(1);
+}
+
+
+.burger{
+  width: 100%;
+  position: relative;
+  /* z-index: 1; */
+}
+.burger::after, .burger::before{
+  content:  " ";
+  width: 50%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  /* position: absolute; */
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.5s;
+
+}
+.burger::after{
+  margin-top: 3px;
+}
+.burgerActive::after{
+  margin-top: 0px;
+  transform: rotate(-45deg);
+}
+.burgerActive::before{
+  transform: rotate(45deg);
+}
+
+.pbox{
+  position: relative;
+}
+.viewbtn{
+  position: absolute;
+  top: 0;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  opacity: 0;
+  transition: ease-in-out 0.8s ;
+}
+
+.viewbtn h2{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+.viewbtn h2:hover{
+  background-color: #1E40AF;
+  transition: transform 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.pbox .viewbtn:hover{
+  opacity: 1;
+}
+
+
+svg .text{
+  color: white;
+}
+
+.text{
+  transform-origin: 46% 46%;
+  animation:  rotate 18s linear infinite;
+}
+@keyframes rotate {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
