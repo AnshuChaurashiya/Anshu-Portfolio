@@ -172,7 +172,7 @@ const SkillPage1 = () => {
 
                         
                         {/* Interests & Languages */}
-                        <div ref={interestCard} className="flex-1 bg-white/80 backdrop-blur-md rounded-2xl p-6 border border-purple-200 shadow-lg min-w-[180px] flex flex-col gap-4">
+                        <div ref={interestCard} className="flex bg-white/80 backdrop-blur-md rounded-2xl p-6 border border-purple-200 shadow-lg min-w-[180px] flex-wrap  md:flex-col gap-4">
                             <div>
                                 <div className="   text-purple-600   text-md mb-1">Interests</div>
                                 <div className="flex gap-2 sm:text-sm py-2 sm:py-0 text-sm text-gray-700">

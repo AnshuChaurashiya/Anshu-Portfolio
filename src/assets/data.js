@@ -5,7 +5,7 @@ const projects = [
       description:
         "A modern portfolio website showcasing my work and skills, built with React and featuring smooth animations and responsive design.",
       image:
-        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1747584505/chat_images/l8whcsjbkot5a4hf2rse.jpg",
+        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1748870507/chat_images/tbpcrj8xhicweipbckoa.jpg",
       link: "/",
       tools: "React, Tailwind, GSAP",
       category: "design",
@@ -15,8 +15,7 @@ const projects = [
       title: "EasyCart",
       description:
         "Developed a fully functional eCommerce web application with features like product browsing, user authentication, shopping cart, and secure payment integration.",
-      image:
-        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1747584190/chat_images/zr8ckyhhfvpbuampunfs.jpg",
+      image:"https://res.cloudinary.com/dbqgnaqqa/image/upload/v1748860952/chat_images/racrpa8jkz5w1wa9sony.jpg",
       link: "https://easycart2.netlify.app/",
       category: "development",
       tools: "React, Tailwind, Redux, Context, Firebase",
@@ -27,11 +26,12 @@ const projects = [
       description:
         "A real-time chat application with features like user authentication, message history, online status, and group chat capabilities. Built with React and Socket.io.",
       image:
-        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1747586759/chat_images/yu6pggmnadtnoxxo2jjz.jpg",
+        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1748870641/chat_images/btvz6cyy8abzemocxwof.jpg",
       link: "https://chat-web-app-6qam.onrender.com",
       category: "development",
       tools: "React, Socket.io, Node.js",
     },
+
     {
       id: 4,
       title: "Apple vision",

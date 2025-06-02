@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <div className="relative w-full lg:px-10 font-[main]">
       <h1 className='projextText opacity-0 text-center border mt-10 cursor-pointer capitalize bg-black text-white w-fit m-auto px-5 py-5 rounded-full'>
-        recent work
+      Projects
       </h1>
 
       <div className="grid grid-cols-1 mt-10 sm:grid-cols-1 lg:grid-cols-2 gap-5">
