@@ -137,10 +137,12 @@ export const Scroll = () => {
           top: 0,
           scrollTrigger: {
             trigger: '.f-top',
-            start: 'top 90%',
+            start: 'top 95%',
             end: 'top 20%',
             scrub: true,
             delay: 1,
+            // markers:true
+
           },
         }
       )

@@ -39,11 +39,11 @@ const Footer = () => {
 
                 {/* bottom */}
                 <div className=" p-10   lg:flex justify-between gap-6 w-full">
-                    <div className=" flex gap-4 md:flex-col">
+                    <div className=" ">
                         <label className='text-gray-500 uppercase'>Socials :</label>
                         <div className=" flex gap-2 justify-evenly ">
                             {social.map((item, index) => (
-                                <a className='text-[4vw] uppercase lg:text-base' target='_blank' href={item.path} key={index}>{item.title}</a>
+                                <a className='text-[4vw] uppercase lg:text-base rounded-full bg-blue-800 p-4 px-5' target='_blank' href={item.path} key={index}>{item.title}</a>
                             ))}
 
                         </div>
