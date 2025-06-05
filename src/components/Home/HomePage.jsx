@@ -11,8 +11,8 @@ const HomePage = () => {
   Scroll();
 
   const texts = [
-    "Creative Web Developer",
-    "Creative Web Designer",
+    "Frontend Developer",
+    "Web Designer",
     "UI/UX Enthusiast",
     "Problem Solver"
   ];
@@ -173,7 +173,7 @@ const HomePage = () => {
                 }}
               />
               <motion.img
-                className="w-full max-w-md mx-auto rounded-full border-4 border-white shadow-2xl"
+                className="w-full max-w-md mx-auto rounded-full  shadow-2xl"
                 src="https://raw.githubusercontent.com/Ade-mir/harris-johnsen-2/refs/heads/main/src/assets/Design%20uten%20navn.png"
                 alt="Hero Visual"
                 whileHover={{ scale: 1.1 }}

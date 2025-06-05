@@ -51,7 +51,7 @@ const Work = () => {
             }
         )
 
-        // Projects grid animation
+        // Projects grid animationt
         gsap.fromTo(projectsRef.current.children,
             { y: 50, opacity: 0 },
             {
@@ -74,7 +74,7 @@ const Work = () => {
         : projects.filter(project => project.category === activeCategory)
     
     return (
-        <div className="Aheading relative font-[main] px-10">
+        <div className="Aheading relative font-[main] p-2 md:px-10">
             {/* heading */}
             <div ref={headingRef} className="leading-10 py-20 text-center items-center">
                 <h1 className='lg:text-8xl text-4xl capitalize text-center'>Creating next level</h1>
@@ -119,10 +119,10 @@ const Work = () => {
             </div>
 
             {/* work box */}
-            <div className="mt-20">
+            <div className="mt-9 mb-10">
                 <div 
                     ref={projectsRef}
-                    className="w-full lg:grid grid-cols-2  "
+                    className="w-full lg:grid grid-cols-2 gap-5  "
                 >
                     {filteredProjects.map((project) => (
                         <ProjectBox 

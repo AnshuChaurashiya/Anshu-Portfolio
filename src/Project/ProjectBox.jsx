@@ -82,21 +82,20 @@ export const ProjectBox = ({ src, link, title, text, tools }) => {
   }, [])
 
   return (
-    <div className="w-full md:px-2  " ref={boxRef}>
+    <div className="w-full  " ref={boxRef}>
       <div className="pbox mb-4 w-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200 rounded-[20px] bg-white">
-        <div className="relative w-full overflow-hidden rounded-[20px] group">
+        <div className="relative w-full overflow-hidden rounded-[20px]  group">
           <img 
             ref={imageRef}
-            className='w-full h-[300px] object-cover transform transition-all duration-500 group-hover:scale-105' 
+            className='w-full md:h-[350px] object-cover transform transition-all duration-500 group-hover:scale-105' 
             src={src} 
             alt={title} 
           />
           
           <div 
             ref={contentRef}
-            className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6"
+            className="absolute w-full h-full top-0 inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col-reverse p-2"
           >
-            <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
             <p className="text-gray-200 mb-4 line-clamp-3">{text}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {tools.split(',').map((tool, index) => (
@@ -108,13 +107,14 @@ export const ProjectBox = ({ src, link, title, text, tools }) => {
                 </span>
               ))}
             </div>
+              <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
             <a 
               href={link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-lg hover:shadow-blue-500/50"
+              className=" bg-blue-600 text-white rounded-full  w-fit m-auto p-5"
             >
-              View Project
+             Live
             </a>
           </div>
         </div>

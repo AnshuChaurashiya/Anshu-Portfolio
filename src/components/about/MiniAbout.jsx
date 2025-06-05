@@ -5,9 +5,9 @@ import { Magnetic } from '../Animation/Magnetic';
 const MiniAbout = () => {
   Magnetic();
 
-  const abouttext = "Hi, I'm Anshu Chaurasiya, a passionate and dedicated MERN Stack Web Developer. I have experience in building dynamic, responsive, and user-friendly web applications.";
-  const abouttext2 =
-    'The combination of my passion for design, code & interaction positions me in a unique place in the web design world.';
+  const abouttext = "Hi, I'm Anshu Chaurasiya, a passionate and creative Frontend Developer specializing in crafting modern, responsive, and interactive web interfaces using HTML, CSS, JavaScript, and React.";
+  const abouttext2 = "With a strong eye for design and a love for clean code, I bridge the gap between UI/UX and functionality—bringing ideas to life through engaging and accessible web experiences.";
+  
   return (
     <>
       <div className="relative px-5 flex-col md:flex-row flex justify-center py-10 gap-10">
