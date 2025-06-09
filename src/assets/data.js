@@ -53,6 +53,16 @@ const projects = [
       category: "design",
       tools: "React, Tailwind, GSAP",
     },
+    {
+      id: 6,
+      title: "Ai Emage Enhancer",
+      description: " Using the Ai and Api to Enhancers the images ",
+      image:
+        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1749400260/chat_images/n66e4wnnrecrwlyw6vrv.jpg",
+      link: "https://big-more.onrender.com/login",
+      category: "development",
+      tools: "React, Tailwind, Freepik Api",
+    },
   ];
   
   export default projects;
