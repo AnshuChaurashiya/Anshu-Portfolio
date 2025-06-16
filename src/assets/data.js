@@ -63,6 +63,16 @@ const projects = [
       category: "development",
       tools: "React, Tailwind, Freepik Api",
     },
+     {
+      id: 7,
+      title: "PicBin ( Image Hosting)",
+      description: " PicBin is a full-stack web application that allows users to upload, manage, and delete images, as well as edit their profile. ",
+      image:
+        "https://res.cloudinary.com/dbqgnaqqa/image/upload/v1750069728/user_uploads/p8jygtzov2m1lncahj1j.jpg",
+      link:" https://picbin.onrender.com/",
+      category: "development",
+      tools: "React, Tailwind, Cloudinary API, MongoDB, Node, Express.js",
+    },
   ];
   
   export default projects;
