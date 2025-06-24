@@ -208,7 +208,7 @@ const HomePage = () => {
         <motion.a
           whileHover={{ scale: 1.1, x: -10 }}
           whileTap={{ scale: 0.95 }}
-          href="https://github.com/AnshuChaurashiya"
+          href="https://github.com/AnshuChaurasiya"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center text-xl uppercase tracking-[3px] text-gray-700 hover:text-[#7e35b9] transition-all duration-300"
