@@ -6,7 +6,7 @@ import { Magnetic } from '../Animation/Magnetic';
 const Footer = () => {
     Magnetic()
     const social = [
-         { title: "LinkedIn", path: "https://www.linkedin.com/in/anshu-chaurashiya-074664287" },
+         { title: "LinkedIn", path: "https://www.linkedin.com/in/anshu-chaurasiya-074664287" },
         { title: "Github ", path: "https://github.com/AnshuChaurashiya" },
     ];
     return (
